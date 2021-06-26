@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringbootJenkinsIntegrationApplicationTests {
 	
-	public static Logger logger = LoggerFactory.getLogger(SpringbootJenkinsIntegrationApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(SpringbootJenkinsIntegrationApplicationTests.class);
 
 	@Test
 	public void contextLoads() {
